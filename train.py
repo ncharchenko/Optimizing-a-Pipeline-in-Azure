@@ -53,7 +53,6 @@ x_train, x_test = train_test_split(x, test_size=0.2)
 y_train, y_test = train_test_split(y,  test_size=0.2)
 
 run = Run.get_context()
-    
 
 def main():
     # Add arguments to script
